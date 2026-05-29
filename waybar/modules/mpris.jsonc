@@ -1,0 +1,15 @@
+        "mpris": {
+            "interval": 1,
+            "format": "{player_icon} {dynamic}",
+            "format-paused": "{status_icon} <i>{dynamic}</i>",
+            "player-icons": {
+                "default": "⏸",
+                "mpv": "🎵"
+            },
+            "status-icons": {
+                "paused": "▶"
+            },
+            "album-len": 0,
+            "title-len": 45,
+            "artist-len": 20
+        },

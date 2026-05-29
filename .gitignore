@@ -1,0 +1,24 @@
+# 1. Ignore absolutely everything in this directory by default
+/*
+
+# 2. But DO NOT ignore these specific folders/files (The Whitelist)
+!/.gitignore
+!/hypr/
+!/kitty/
+!/nvim/
+!/waybar/
+!/rofi/
+!/dunst/
+!/btop/
+!/Kvantum/
+!/swaylock/
+!/qt5ct/
+!/qt6ct/
+!/gtk-3.0/
+!/gtk-4.0/
+!/.zshrc
+!/fastfetch/
+
+# 3. (Optional) If an allowed folder has a cache folder inside it, block that specific cache
+# Example: If nvim has a state folder inside it you don't want
+# /nvim/.netrwhist
