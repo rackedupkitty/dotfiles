@@ -3,6 +3,7 @@
 
 # 2. But DO NOT ignore these specific folders/files (The Whitelist)
 !/.gitignore
+!/.local
 !/hypr/
 !/kitty/
 !/nvim/
