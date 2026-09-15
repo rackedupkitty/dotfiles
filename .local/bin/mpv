@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export LD_LIBRARY_PATH="$HOME/.local/opt/g4music-gst/lib:${LD_LIBRARY_PATH:-}"
+
+exec /usr/bin/mpv "$@"

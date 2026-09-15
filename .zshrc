@@ -1,3 +1,4 @@
+typeset -U path PATH
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
@@ -209,3 +210,4 @@ function songs() {
 }
 
 export PATH=/opt/cuda/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
