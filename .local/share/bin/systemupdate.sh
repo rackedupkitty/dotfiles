@@ -13,7 +13,7 @@ export -f pkg_installed
 fpk_exup="pkg_installed flatpak && flatpak update"
 
 # Define packages to ignore
-ignore_pkgs="hyprpicker opera spotify spicetify-cli spotify-adblock discord visual-studio-code-bin whatsdesk-bin chromium morgen-bin gimp hyprland hyprutils aquamarine hyprgraphics hyprland-guiutils hyprland hyprtoolkit hyprwire xdg-desktop-portal-hyprland hyprlang"
+ignore_pkgs="hyprpicker opera spotify spicetify-cli spotify-adblock discord visual-studio-code-bin whatsdesk-bin chromium morgen-bin gimp hyprland hyprutils aquamarine hyprgraphics hyprland-guiutils hyprland hyprtoolkit hyprwire xdg-desktop-portal-hyprland hyprlang libjxl"
 aur_ignore_pkgs="hyprpicker opera spotify spicetify-cli spotify-adblock discord visual-studio-code-bin whatsdesk-bin chromium morgen-bin"
 
 # Trigger upgrade
