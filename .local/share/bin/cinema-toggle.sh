@@ -8,7 +8,7 @@ if hyprctl monitors -j | grep -q "VIRTUAL-1"; then
 
     # Restore physical displays: DP-3 at 180Hz and TV mirroring DP-3
     hyprctl keyword monitor "DP-3, 2560x1440@180, 0x0, 1"
-    hyprctl keyword monitor "HDMI-A-1, 3840x2160@23.98, auto, 1, mirror, DP-3"
+    hyprctl keyword monitor "HDMI-A-1, 3840x2160@29.97, auto, 1, mirror, DP-3"
 
     # Clean up the virtual monitor backend
     sleep 0.4
@@ -34,7 +34,7 @@ else
 
     # Snap VIRTUAL-1 back to 0x0 and mirror the TV
     hyprctl keyword monitor "VIRTUAL-1, 2560x1440@60, 0x0, 1"
-    hyprctl keyword monitor "HDMI-A-1, 3840x2160@23.98, auto, 1, mirror, VIRTUAL-1"
+    hyprctl keyword monitor "HDMI-A-1, 3840x2160@29.97, auto, 1, mirror, VIRTUAL-1"
 
     # Disable animations during cinema mode to prevent 24Hz sluggishness/stutter
     hyprctl keyword animations:enabled 0
