@@ -79,7 +79,8 @@ alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
-alias fastanime="viu-media --icons --preview full --selector fzf anilist"
+alias fastanime="ani-cli"
+# alias fastanime="viu-media --icons --preview full --selector fzf anilist"
 alias vpn='sudo xvpn ui'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
