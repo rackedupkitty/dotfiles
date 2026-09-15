@@ -1,0 +1,4 @@
+#!/bin/sh
+export GST_PLUGIN_PATH="$HOME/.local/opt/g4music-gst/lib/gstreamer-1.0"
+export LD_LIBRARY_PATH="$HOME/.local/opt/g4music-gst/lib"
+exec g4music
