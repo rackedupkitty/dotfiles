@@ -120,8 +120,6 @@ EOF
         grep -v "^${launchid}$" "$HistoryFile" > "${HistoryFile}.tmp" 2>/dev/null || true
         echo "$launchid" | cat - "${HistoryFile}.tmp" > "$HistoryFile"
         
-        notify-send -a "t1" "Launching ${RofiSel}..."
-        
         if [ "$launchtype" = "steam" ]; then
             steam -silent -applaunch "$launchid" &
         else
